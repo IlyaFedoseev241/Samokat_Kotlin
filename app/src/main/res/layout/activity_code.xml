@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Authorization.CodeActivity">
+    <TextView
+        android:id="@+id/code_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Пароль"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:fontFamily="@font/lexend_medium"
+        android:textSize="23sp"
+
+        >
+    </TextView>
+    <EditText
+        android:id="@+id/code_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/code_tv"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/phone_edtext"
+        android:padding="12dp"
+        android:textSize="21sp"
+        android:hint="Введите пароль"
+        android:fontFamily="@font/lexend_medium"
+        android:inputType="textPassword"
+        >
+    </EditText>
+    <Button
+        android:id="@+id/input_btn"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/code_et"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/code_button_0"
+        android:layout_centerHorizontal="true"
+        android:text="Войти"
+        android:fontFamily="@font/lexend_medium"
+        android:textSize="17sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:enabled="false"
+        >
+    </Button>
+    <TextView
+        android:id="@+id/number_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+7 (XXX) XXX-XX-XX"
+        android:layout_marginTop="333dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="70dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:fontFamily="@font/lexend_medium"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        >
+    </TextView>
+
+</RelativeLayout>

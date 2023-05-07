@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Samokat_Kotlin</string>
+    <string name="input">Войти</string>
+    <string name="register">Создать аккаунт</string>
+    <string name="phone">Номер телефона</string>
+    <string name="userDB">Users</string>
+    <string name="productName">Product Name</string>
+    <string name="productPrice">Product Price</string>
+
+</resources>

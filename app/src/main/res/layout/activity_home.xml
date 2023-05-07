@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    >
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_menu"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_centerHorizontal="true"
+        android:scrollbars="vertical"
+        />
+
+    <Button
+        android:id="@+id/home_basket"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/recycler_menu"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/code_button"
+        android:text="Корзина товаров"
+        android:fontFamily="@font/lexend_medium"
+        android:textSize="17sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"
+        >
+    </Button>
+    <Button
+        android:id="@+id/home_orders"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/home_basket"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/code_button"
+        android:text="Мои заказы"
+        android:fontFamily="@font/lexend_medium"
+        android:textSize="17sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"
+        android:visibility="visible"
+        >
+    </Button>
+
+</RelativeLayout>

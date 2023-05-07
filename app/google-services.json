@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "976549149232",
+    "project_id": "samokatkotlin",
+    "storage_bucket": "samokatkotlin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:976549149232:android:8772abf9c2e22343748bf5",
+        "android_client_info": {
+          "package_name": "com.example.samokat_kotlin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "976549149232-rmvnrmh1foh9bn6jhg2fcktm3ikhdhe4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.samokat_kotlin",
+            "certificate_hash": "06b4794127b1c6e8d23b4ba9bac72347a5c2b597"
+          }
+        },
+        {
+          "client_id": "976549149232-gf6jbl9gfsea108j9de1ufvcm99pq1b6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0L-W0C0mw7J9ElGNyIFmd1wEL3qIBw9o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "976549149232-gf6jbl9gfsea108j9de1ufvcm99pq1b6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
